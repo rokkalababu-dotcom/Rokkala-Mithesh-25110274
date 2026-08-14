@@ -4,3 +4,25 @@ Darwin Mitheshs-MacBook-Air-3421.local 25.6.0 Darwin Kernel Version 25.6.0: Sat 
 
 ##2. What does man do?
 
+The man command is used to display the manual or documentation of a command in the terminal.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
