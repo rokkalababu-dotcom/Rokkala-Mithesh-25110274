@@ -1,0 +1,42 @@
+[
+  {
+    "target": "heating_load",
+    "model": "ridge",
+    "row_id": 572,
+    "shape_id": 0,
+    "actual": 15.09,
+    "prediction": 20.816995863691904,
+    "signed_error": 5.726995863691904,
+    "absolute_error": 5.726995863691904
+  },
+  {
+    "target": "heating_load",
+    "model": "forest",
+    "row_id": 293,
+    "shape_id": 10,
+    "actual": 33.48,
+    "prediction": 26.94698754583135,
+    "signed_error": -6.533012454168645,
+    "absolute_error": 6.533012454168645
+  },
+  {
+    "target": "cooling_load",
+    "model": "ridge",
+    "row_id": 671,
+    "shape_id": 0,
+    "actual": 16.0,
+    "prediction": 22.958633343944605,
+    "signed_error": 6.958633343944605,
+    "absolute_error": 6.958633343944605
+  },
+  {
+    "target": "cooling_load",
+    "model": "forest",
+    "row_id": 535,
+    "shape_id": 10,
+    "actual": 40.99,
+    "prediction": 32.0763715138001,
+    "signed_error": -8.913628486199904,
+    "absolute_error": 8.913628486199904
+  }
+]

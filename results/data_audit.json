@@ -1,0 +1,49 @@
+{
+  "rows": 768,
+  "features": 8,
+  "empty_spreadsheet_rows_removed": 0,
+  "missing": {
+    "relative_compactness": 0,
+    "surface_area": 0,
+    "wall_area": 0,
+    "roof_area": 0,
+    "overall_height": 0,
+    "orientation": 0,
+    "glazing_area": 0,
+    "glazing_distribution": 0,
+    "heating_load": 0,
+    "cooling_load": 0
+  },
+  "duplicate_source_rows": 0,
+  "shape_counts": {
+    "0": 64,
+    "1": 64,
+    "2": 64,
+    "3": 64,
+    "4": 64,
+    "5": 64,
+    "6": 64,
+    "7": 64,
+    "8": 64,
+    "9": 64,
+    "10": 64,
+    "11": 64
+  },
+  "categories": {
+    "orientation": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "glazing_distribution": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "sha256": "0089fcffc1415e41e2ff63730cca5280efe54fc43d722dfde1b0aaa808e35dc4"
+}

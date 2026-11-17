@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "checks": [
+    "source SHA-256 matches audit",
+    "768 complete rows and original geometry grouping verified",
+    "576 development / 192 test rows; no shape overlap",
+    "three validation folds with shape separation",
+    "prediction targets match source rows",
+    "baseline equals development target mean",
+    "all six MAE and RMSE values recomputed",
+    "per-shape MAE recomputed",
+    "website JSON matches saved predictions"
+  ],
+  "scope": "Artifact consistency checks, not a claim of student understanding or independent model replication."
+}
