@@ -144,3 +144,6 @@ The report now separates the question, dataset, preprocessing, methods, evaluati
 
 ## Confirmed submission repository
 The project destination is https://github.com/rokkalababu-dotcom/Rokkala-Mithesh-25110274. It was verified accessible on November 17, 2026. Existing Assignment1.md and Lab_0.md are unrelated coursework and must be retained. For GitHub Pages, publish main /docs; the project homepage is docs/index.html. The profile-only links and earlier repository-access notes above are superseded by this verified destination.
+
+## Phone and desktop usability update
+The current opening page uses a simple navy, blue and white palette. Phone layouts use 15–16 px text, full-width controls, stacked comparison cards, labelled result cards, an expandable contents menu and bottom quick-navigation links. Wide data tables remain horizontally scrollable within their containers; per-shape scores can be expanded on demand. Desktop layouts retain the left sidebar and multi-column evidence tables. The full report remains available; no results or evaluation choices changed.
