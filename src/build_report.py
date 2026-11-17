@@ -48,7 +48,9 @@ def build():
     metrics='';findings=[]; result_rows=[]
     for m in s['metrics']:
         values=[v['mae'] for v in s['cv'] if v['target']==m['target'] and v['model']==m['model']]
-        metrics+=tr([m['target'].replace('_',' '),NAMES[m['model']],f"{m['mae']:.3f}",f"{m['rmse']:.3f}",f'{np.mean(values):.3f} ± {np.std(values,ddof=1):.3f}'])
+        values_out=[m['target'].replace('_',' '),NAMES[m['model']],f"{m['mae']:.3f}",f"{m['rmse']:.3f}",f'{np.mean(values):.3f} ± {np.std(values,ddof=1):.3f}']
+        labels=['Target','Model','Test MAE','Test RMSE','Validation MAE ± fold SD']
+        metrics+='<tr>'+''.join('<td data-label="'+html.escape(label)+'">'+html.escape(str(value))+'</td>' for label,value in zip(labels,values_out))+'</tr>'
     for target in ['heating_load','cooling_load']:
         ms=[m for m in s['metrics'] if m['target']==target]
         base=next(m for m in ms if m['model']=='baseline'); ridge=next(m for m in ms if m['model']=='ridge'); forest=next(m for m in ms if m['model']=='forest')
