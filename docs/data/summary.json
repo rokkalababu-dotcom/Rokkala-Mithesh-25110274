@@ -1,0 +1,346 @@
+{
+  "seed": 42,
+  "development_rows": 576,
+  "test_rows": 192,
+  "development_shapes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    11
+  ],
+  "test_shapes": [
+    0,
+    9,
+    10
+  ],
+  "metrics": [
+    {
+      "target": "heating_load",
+      "model": "baseline",
+      "mae": 8.267684027777777,
+      "rmse": 8.877692253077651
+    },
+    {
+      "target": "heating_load",
+      "model": "ridge",
+      "mae": 2.463789787847852,
+      "rmse": 2.7541336807465258
+    },
+    {
+      "target": "heating_load",
+      "model": "forest",
+      "mae": 3.3299957065982633,
+      "rmse": 3.6068027733400245
+    },
+    {
+      "target": "cooling_load",
+      "model": "baseline",
+      "mae": 8.554782986111112,
+      "rmse": 9.093014340656387
+    },
+    {
+      "target": "cooling_load",
+      "model": "ridge",
+      "mae": 3.527425608003228,
+      "rmse": 4.133074240593386
+    },
+    {
+      "target": "cooling_load",
+      "model": "forest",
+      "mae": 4.343008654975221,
+      "rmse": 4.814943486348352
+    }
+  ],
+  "cv": [
+    {
+      "target": "heating_load",
+      "model": "baseline",
+      "fold": 0,
+      "mae": 10.613056423611111
+    },
+    {
+      "target": "heating_load",
+      "model": "baseline",
+      "fold": 1,
+      "mae": 8.582029947916666
+    },
+    {
+      "target": "heating_load",
+      "model": "baseline",
+      "fold": 2,
+      "mae": 10.315194444444444
+    },
+    {
+      "target": "heating_load",
+      "model": "ridge",
+      "fold": 0,
+      "mae": 4.013512844761554
+    },
+    {
+      "target": "heating_load",
+      "model": "ridge",
+      "fold": 1,
+      "mae": 2.561512566590516
+    },
+    {
+      "target": "heating_load",
+      "model": "ridge",
+      "fold": 2,
+      "mae": 4.3692695259655645
+    },
+    {
+      "target": "heating_load",
+      "model": "forest",
+      "fold": 0,
+      "mae": 2.2056561848993055
+    },
+    {
+      "target": "heating_load",
+      "model": "forest",
+      "fold": 1,
+      "mae": 8.56611268427009
+    },
+    {
+      "target": "heating_load",
+      "model": "forest",
+      "fold": 2,
+      "mae": 5.686951360981375
+    },
+    {
+      "target": "cooling_load",
+      "model": "baseline",
+      "fold": 0,
+      "mae": 9.381170789930556
+    },
+    {
+      "target": "cooling_load",
+      "model": "baseline",
+      "fold": 1,
+      "mae": 8.056090494791667
+    },
+    {
+      "target": "cooling_load",
+      "model": "baseline",
+      "fold": 2,
+      "mae": 9.413029513888889
+    },
+    {
+      "target": "cooling_load",
+      "model": "ridge",
+      "fold": 0,
+      "mae": 4.5195232117321735
+    },
+    {
+      "target": "cooling_load",
+      "model": "ridge",
+      "fold": 1,
+      "mae": 2.2602391584313843
+    },
+    {
+      "target": "cooling_load",
+      "model": "ridge",
+      "fold": 2,
+      "mae": 4.549586710725059
+    },
+    {
+      "target": "cooling_load",
+      "model": "forest",
+      "fold": 0,
+      "mae": 1.4345243011288173
+    },
+    {
+      "target": "cooling_load",
+      "model": "forest",
+      "fold": 1,
+      "mae": 6.831011323241547
+    },
+    {
+      "target": "cooling_load",
+      "model": "forest",
+      "fold": 2,
+      "mae": 5.668096007013911
+    }
+  ],
+  "per_shape": [
+    {
+      "target": "heating_load",
+      "model": "baseline",
+      "shape_id": 0,
+      "mae": 7.185774305555556
+    },
+    {
+      "target": "heating_load",
+      "model": "baseline",
+      "shape_id": 9,
+      "mae": 7.3578576388888886
+    },
+    {
+      "target": "heating_load",
+      "model": "baseline",
+      "shape_id": 10,
+      "mae": 10.259420138888888
+    },
+    {
+      "target": "heating_load",
+      "model": "ridge",
+      "shape_id": 0,
+      "mae": 3.6938414038395884
+    },
+    {
+      "target": "heating_load",
+      "model": "ridge",
+      "shape_id": 9,
+      "mae": 1.7111396154758887
+    },
+    {
+      "target": "heating_load",
+      "model": "ridge",
+      "shape_id": 10,
+      "mae": 1.986388344228079
+    },
+    {
+      "target": "heating_load",
+      "model": "forest",
+      "shape_id": 0,
+      "mae": 2.335578806889492
+    },
+    {
+      "target": "heating_load",
+      "model": "forest",
+      "shape_id": 9,
+      "mae": 2.5562097610750834
+    },
+    {
+      "target": "heating_load",
+      "model": "forest",
+      "shape_id": 10,
+      "mae": 5.098198551830215
+    },
+    {
+      "target": "cooling_load",
+      "model": "baseline",
+      "shape_id": 0,
+      "mae": 8.653298611111113
+    },
+    {
+      "target": "cooling_load",
+      "model": "baseline",
+      "shape_id": 9,
+      "mae": 7.087630208333331
+    },
+    {
+      "target": "cooling_load",
+      "model": "baseline",
+      "shape_id": 10,
+      "mae": 9.923420138888886
+    },
+    {
+      "target": "cooling_load",
+      "model": "ridge",
+      "shape_id": 0,
+      "mae": 5.606436832763609
+    },
+    {
+      "target": "cooling_load",
+      "model": "ridge",
+      "shape_id": 9,
+      "mae": 2.566784118509301
+    },
+    {
+      "target": "cooling_load",
+      "model": "ridge",
+      "shape_id": 10,
+      "mae": 2.4090558727367735
+    },
+    {
+      "target": "cooling_load",
+      "model": "forest",
+      "shape_id": 0,
+      "mae": 4.9753588514551845
+    },
+    {
+      "target": "cooling_load",
+      "model": "forest",
+      "shape_id": 9,
+      "mae": 2.895139634252537
+    },
+    {
+      "target": "cooling_load",
+      "model": "forest",
+      "shape_id": 10,
+      "mae": 5.15852747921794
+    }
+  ],
+  "parameters": {
+    "heating_load/baseline": {},
+    "heating_load/ridge": {
+      "model__alpha": 100
+    },
+    "heating_load/forest": {
+      "model__max_depth": 5,
+      "model__min_samples_leaf": 1
+    },
+    "cooling_load/baseline": {},
+    "cooling_load/ridge": {
+      "model__alpha": 100
+    },
+    "cooling_load/forest": {
+      "model__max_depth": 5,
+      "model__min_samples_leaf": 1
+    }
+  },
+  "audit": {
+    "rows": 768,
+    "features": 8,
+    "empty_spreadsheet_rows_removed": 0,
+    "missing": {
+      "relative_compactness": 0,
+      "surface_area": 0,
+      "wall_area": 0,
+      "roof_area": 0,
+      "overall_height": 0,
+      "orientation": 0,
+      "glazing_area": 0,
+      "glazing_distribution": 0,
+      "heating_load": 0,
+      "cooling_load": 0
+    },
+    "duplicate_source_rows": 0,
+    "shape_counts": {
+      "0": 64,
+      "1": 64,
+      "2": 64,
+      "3": 64,
+      "4": 64,
+      "5": 64,
+      "6": 64,
+      "7": 64,
+      "8": 64,
+      "9": 64,
+      "10": 64,
+      "11": 64
+    },
+    "categories": {
+      "orientation": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "glazing_distribution": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "sha256": "0089fcffc1415e41e2ff63730cca5280efe54fc43d722dfde1b0aaa808e35dc4"
+  }
+}
