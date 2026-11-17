@@ -147,3 +147,6 @@ The project destination is https://github.com/rokkalababu-dotcom/Rokkala-Mithesh
 
 ## Phone and desktop usability update
 The current opening page uses a simple navy, blue and white palette. Phone layouts use 15–16 px text, full-width controls, stacked comparison cards, labelled result cards, an expandable contents menu and bottom quick-navigation links. Wide data tables remain horizontally scrollable within their containers; per-shape scores can be expanded on demand. Desktop layouts retain the left sidebar and multi-column evidence tables. The full report remains available; no results or evaluation choices changed.
+
+## Original energy-lab introduction
+The opening page uses an original axonometric building illustration with geometry and glazing annotations. Its heating/cooling toggle explains the two targets; it changes only the explanatory illustration, not model outputs. The artwork is conceptual and is not a reconstructed dataset shape. The full held-out prediction explorer and research report remain separate below the introduction. The new landing interaction is implemented in docs/landing.js and its source layout in src/site_template.html.
